@@ -1,0 +1,125 @@
+/* css reset*/
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+/* css reset end*/
+
+/*general starts*/
+  body{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  header, main{
+    padding: 1rem;
+  }
+
+  img{
+    width: 100%; 
+  }
+  /* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Rancho', cursive; */
+
+/*general ends*/
+
+/*header starts*/
+  header nav ul li{
+    display: none;
+  }
+
+  #logo{
+    display: inline;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-family: 'Rancho', cursive;
+  }
+
+  #burger-menu{
+    display: inline;
+    float: right;
+    font-size: 1.6rem;
+  }
+/*header ends*/
+
+
+/*hero section starts*/
+  .hero-text{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+
+  #hero-vegan{
+    color: green;
+  }
+
+  .hero-container button{
+    padding: 6px 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.685);
+    border:none;
+    border-radius: 3px;
+    box-shadow: 1px 1px red;
+  }
+
+  .hero-button-close-resto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-button-close-resto button{
+    margin-right: 30px;
+  }
+
+  .hero-icons{
+    margin: 30px 20px;
+  }
+
+/*hero section ends*/
+
+
+/*especialidades starts*/
+  .especialidades{
+    padding: 30px 0;
+  }
+/*especialidades ends*/
+
+
+
+
+/*header starts*/
+/*header ends*/
+/*header starts*/
+/*header ends*/
+
+
+@media screen and (min-width: 725px) {
+  
+  body{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  main{
+    padding: 0;
+  }
+
+  header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav ul li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  #burger-menu{
+    display:none;
+  }
+}
