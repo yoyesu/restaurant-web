@@ -26,26 +26,22 @@
   </header>
   
   <main>
+<!--hero start-->
     <section class='hero-container'>
-      <div class='hero-text'>
-        <p>Comida casera, saludable y <span id='hero-vegan'>vegana</span></p>
-      </div>
+      <section class='hero-text'><!--we use section inside section instead of using div to make it more semantic-->
+        <h1>Comida casera, <span class='hero-saludable'>saludable y </span><span class='hero-vegan'>vegana</span>.</h1>
 
-      <div class='hero-button-close-resto'>
-        <button>Ver menú</button>
-        <p>Local cerca</p>
-      </div>
-      
-    
+        <section class='hero-buttons'>
+          <button>Ver menú</button>
+          <button>Local cerca</button>
+        </section>
 
-      <div class='hero-icons'>
         <img src='img/heroIcons.png' alt=''>
-      </div>
-      <div class='hero-image'>
-        <img src='img/koreanDish.png' alt=''>
-      </div>
-    </section>
+      </section>
 
+      <img id='hero-image' src='img/koreanDish.png' alt=''>
+    </section>
+<!--hero end-->
     <section class='especialidades'>
       <h2>Especialidades <span>de la casa</span></h2>
       <article class='dish1'>

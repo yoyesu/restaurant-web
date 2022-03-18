@@ -44,38 +44,40 @@ font-family: 'Rancho', cursive; */
 
 
 /*hero section starts*/
-  .hero-text{
-    font-size: 20px;
+  .hero-text h1{
+    font-weight: lighter;
+    font-size: 3.5rem;
+    color: rgb(50,50,50);
+    margin: 3rem 0;
+  }
+  
+  .hero-vegan{
+    color: #2A908F;
+  }
+
+  .hero-buttons{
     display: flex;
-    flex-wrap: wrap;
-    padding: 20px 0;
+    justify-content: space-around;
   }
 
-  #hero-vegan{
-    color: green;
-  }
-
-  .hero-container button{
-    padding: 6px 10px;
-    color: white;
-    background-color: rgba(255, 0, 0, 0.685);
+  .hero-buttons :first-child {
+    background-color: #E76F51;
+    color:white;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 5px 5px 15px #E76F51ec;
+    border-radius: 5px;
     border:none;
-    border-radius: 3px;
-    box-shadow: 1px 1px red;
+    margin-right: 15%;
   }
 
-  .hero-button-close-resto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .hero-buttons :last-child{
+    border:none;
+    background-color: white;
+    font-size: 1rem;
   }
 
-  .hero-button-close-resto button{
-    margin-right: 30px;
-  }
-
-  .hero-icons{
-    margin: 30px 20px;
+  .hero-text img {
+    margin: 3rem 0;
   }
 
 /*hero section ends*/
@@ -122,4 +124,31 @@ font-family: 'Rancho', cursive; */
   #burger-menu{
     display:none;
   }
+
+  .hero-container {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .hero-text{
+    padding: 1rem;
+  }
+
+  .hero-saludable{
+    display: block;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+  }
+  #hero-image{
+    width: 375px;
+  }
+
+
+
+
+
+
+
 }
